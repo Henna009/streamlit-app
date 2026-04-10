@@ -1,0 +1,206 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+2026-04-08 14:26:09.253 Port 8501 is not available
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501/data-analysis
+  Network URL: http://192.168.1.229:8501/data-analysis
+  External URL: http://128.214.254.92:8501/data-analysis
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+2026-04-08 14:31:53.493 Port 8501 is not available
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+2026-04-08 14:33:36.952 Port 8501 is not available
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501/data-analysis
+  Network URL: http://192.168.1.229:8501/data-analysis
+  External URL: http://128.214.254.92:8501/data-analysis
+
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501/data-analysis
+  Network URL: http://192.168.1.229:8501/data-analysis
+  External URL: http://128.214.254.92:8501/data-analysis
+
+/home/ubuntu/streamlit-app/app.py:27: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:27: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+2026-04-09 07:20:52.982 Script compilation error
+Traceback (most recent call last):
+  File "/home/ubuntu/streamlit-app/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 591, in _run_script
+    code = self._script_cache.get_bytecode(script_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/streamlit-app/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_cache.py", line 72, in get_bytecode
+    filebody = magic.add_magic(filebody, script_path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/streamlit-app/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/magic.py", line 45, in add_magic
+    tree = ast.parse(code, script_path, "exec")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ast.py", line 52, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/streamlit-app/app.py", line 30
+    st.subheader("📈 Lämpötila")
+                               ^
+IndentationError: unindent does not match any outer indentation level
+2026-04-09 07:20:52.985 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501/data-analysis
+  Network URL: http://192.168.1.229:8501/data-analysis
+  External URL: http://128.214.254.92:8501/data-analysis
+
+2026-04-09 07:21:34.570 Script compilation error
+Traceback (most recent call last):
+  File "/home/ubuntu/streamlit-app/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 591, in _run_script
+    code = self._script_cache.get_bytecode(script_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/streamlit-app/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_cache.py", line 72, in get_bytecode
+    filebody = magic.add_magic(filebody, script_path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/streamlit-app/venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/magic.py", line 45, in add_magic
+    tree = ast.parse(code, script_path, "exec")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ast.py", line 52, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/streamlit-app/app.py", line 30
+    st.subheader("📈 Lämpötila")
+                               ^
+IndentationError: unindent does not match any outer indentation level
+2026-04-09 07:21:34.595 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501/data-analysis
+  Network URL: http://192.168.1.229:8501/data-analysis
+  External URL: http://128.214.254.92:8501/data-analysis
+
+/home/ubuntu/streamlit-app/app.py:27: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:27: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:27: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:27: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:27: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:27: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:27: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501/data-analysis
+  Network URL: http://192.168.1.229:8501/data-analysis
+  External URL: http://128.214.254.92:8501/data-analysis
+
+/home/ubuntu/streamlit-app/app.py:29: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:29: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  st.write(df)
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501/data-analysis
+  Network URL: http://192.168.1.229:8501/data-analysis
+  External URL: http://128.214.254.92:8501/data-analysis
+
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
+/home/ubuntu/streamlit-app/app.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql("SELECT * FROM weather ORDER BY created_at DESC LIMIT 10", conn)
