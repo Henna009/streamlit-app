@@ -1,7 +1,7 @@
 import requests
 import mysql.connector
 
-API_KEY = "a701260b19dca815ba08df858835bd2f"
+API_KEY = "API"
 
 url = f"https://api.openweathermap.org/data/2.5/weather?q=Helsinki&appid={API_KEY}&units=metric"
 
